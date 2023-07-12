@@ -22,5 +22,5 @@ variable "example_list"{
 }
 
 output "example_list_op"{
-    value = "welcome to ${ var.example_list[1]} with ${var.example[0]} this is ${var.example[2]} and current topic is ${var.example_list[3]}"
+    value = "welcome to ${var.example_list[1]} with ${var.example_list[0]} this is ${var.example_list[2]} and current topic is ${var.example_list [3]}"
 }
