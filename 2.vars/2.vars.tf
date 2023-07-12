@@ -40,3 +40,8 @@ output "example_map_op"{
     value = "We are learning  ${var.example_map["Training"]} and this is ${var.example_map["Batch"]} and it is ${var.example_map["Mode"]}"
 }
 
+#empty variable
+
+variable "test"{
+    
+}
