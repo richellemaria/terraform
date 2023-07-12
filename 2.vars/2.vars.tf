@@ -14,9 +14,9 @@ output "sample_op_variable"{
 
 variable "example_list"{
     default = [
-        "AWS";
+        "AWS",
         "Devops",
-        54
+        54,
         "Terraform"
     ]
 }
