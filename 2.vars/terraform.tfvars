@@ -1,2 +1,1 @@
 city = "Bangalore"
-state = "Karnataka"
