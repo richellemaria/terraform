@@ -41,7 +41,8 @@ output "example_map_op"{
 }
 
 #empty variable
-
+/*
 variable "test"{
-    
+
 }
+*/
