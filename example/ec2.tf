@@ -11,10 +11,9 @@ resource "aws_instance" "app_server" {
 
 #security group
 
-resource "aws_security_group" "allow_allow" {
+resource "aws_security_group" "allow_all" {
   name        = "allow_tls"
   description = "Allow TLS inbound traffic"
-  vpc_id      = "${aws_vpc.main.id}"
 
   ingress {
     description = "TLS from VPC"
