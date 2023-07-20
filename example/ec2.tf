@@ -8,6 +8,9 @@ resource "aws_instance" "app_server" {
   }
 }
 
+output "aws_private_ip"{
+    value = aws_instance.app_server.private_ip
+}
 
 #security group
 
