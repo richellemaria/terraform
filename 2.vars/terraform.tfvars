@@ -1,3 +1,3 @@
 city = "Bangalore"
 state = "karnataka"
-coldcity = "OOTY"
+//coldcity = "OOTY"
