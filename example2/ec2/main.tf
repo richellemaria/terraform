@@ -1,5 +1,5 @@
 resource "aws_instance" "server" {
-  ami           = "ami-02edefb7f078d80d3"
+  ami           = "data.aws_ami.image_id"
   instance_type = "t2.medium"
   vpc_security_group_ids = [var.sg]
 
