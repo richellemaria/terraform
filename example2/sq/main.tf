@@ -21,3 +21,8 @@ resource "aws_security_group" "allows_all" {
     Name = "allows_tls"
   }
 }
+
+#step 1 declare output
+output "sgid"{
+    value = aws_security_group.allows_all.id
+}
